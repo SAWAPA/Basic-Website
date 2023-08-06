@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sawapass</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <ul>
+            <a href="./index.html"> <li>Marian Der ZapZap</li> </a>
+            <a href="./index.html"> <li>Profile</li> </a>
+            <a href="./form.html"> <li>Form</li> </a>
+            <a href="./game.html"> <li>Game</li> </a>
+            <a href="./ทรงกระบอก.html"> <li>ทรงกระบอก</li> </a>
+            <a href="./ของเล่น.html"> <li>ของเล่น</li> </a>
+        </ul> 
+    </div>
+
+    <div class="content">
+        <h1>Sports Z</h1>
+        <img src="images.png">
+        <br><br>
+        <fieldset >
+            <legend>ข้อมูลส่วนตัว</legend>
+            <br><br>
+            <form>
+                <label>คำนำหน้า :</label>
+                <select>
+                    <option value="0">---เลือกข้อความ---</option>
+                    <option value="1">เด็กชาย</option>
+                    <option value="2">เด็กหญิง</option>
+                    <option value="3">นาย</option>
+                    <option value="4">นาง</option>
+                    <option value="5">นางสาว</option>
+                </select>
+                <br><br>
+                <label>ชื่อจริง :</label>
+                <input placeholder="ชื่อจริง" type="text">
+                <br><br>
+                <label>นามสกุล</label>
+                <input placeholder="นามสกุล" type="text">
+                <br><br>
+
+                <label>อายุ :</label>
+                <input placeholder="อายุ" type="text">
+                <br><br>
+
+                <label>Email :</label>
+                <input placeholder="email" type="email">
+                <br><br>
+                <label>Password :</label>
+                <input placeholder="password" type="password">
+            </form>
+            <br><br>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>ความสนใจ</legend>
+            <br><br>
+            <form>
+                <input type="checkbox">
+                <label>ฟุตบอล</label>
+                
+                <input type="checkbox">
+                <label>บาสเก็ตบอล</label>
+                <br><br>
+                
+                <label>ความคิดเห็นเพิ่มเติม</label>
+                <br><br>
+                <textarea cols="30" rows="10"></textarea>
+                <br><br>
+            </form>     
+        </fieldset>
+        
+        <br><br>
+        <input type="submit">
+        <input type="reset">
+        
+    </div>
+</body>
+</html>

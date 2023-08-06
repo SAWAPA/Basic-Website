@@ -1,0 +1,31 @@
+.navbar{
+    background-color: black;
+    color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+body{
+    background-image: url(https://t4.ftcdn.net/jpg/02/95/67/11/360_F_295671130_iR0BG3MsTDibW9jFhZ0xkRxpKNgLKAvt.jpg);
+    background-size: cover;
+}
+.items1{
+    border: solid 2px white;
+    margin: 0px auto;
+    width: 50%;
+    padding: 15px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSna_ssSqL9i_kcAD7JXMCoipi-erD-rmes-OEJPqvL_pnq_BiiyqL1o5iPZTpfKSx0HUc&usqp=CAU);
+    background-size: auto;
+}
+.show{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+}

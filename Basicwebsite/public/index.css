@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Mouse+Memoirs&family=Ms+Madi&family=Roboto+Condensed:ital@1&family=Uchen&display=swap');
+
+*{
+    font-family: 'Combo', cursive;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-family: 'Ms Madi', cursive;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Uchen', serif;
+}
+.content{
+    text-align: center;
+    align-items: center;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.content{
+    text-align: center
+}
+p{
+    text-align: center;
+    align-items: center;
+
+}
+h1{
+    color: #713db5;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+ul{
+    text-align: center;
+    align-items: center;
+}
+textarea{
+    text-align: center;
+}
+.navbar{
+    background-color: black;
+    color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+body {
+        background-image: url('https://wallpapers.com/images/hd/minimalist-purple-sky-and-mountain-ex4suuw5xd4funov.jpg') ;
+        background-size: cover;
+}

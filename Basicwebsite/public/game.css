@@ -1,0 +1,24 @@
+.navbar ul li{
+    display: inline;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.navbar ul{
+    text-align: center;
+}
+.navbar{
+    background-color: black;
+    color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+body{
+    background-image: url(https://st2.depositphotos.com/3759469/6798/v/600/depositphotos_67982979-stock-illustration-horizontally-seamless-game-background.jpg);
+    background-size: cover;
+}
+
+

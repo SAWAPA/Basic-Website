@@ -1,0 +1,34 @@
+.navbar{
+    background-color: black;
+    color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+body {
+    background-image: url('https://wallpapers.com/images/hd/minimalist-purple-sky-and-mountain-ex4suuw5xd4funov.jpg') ;
+    background-size: cover;
+}
+.content{
+    text-align: center;
+    align-items: baseline;
+}
+fieldset{
+    border: solid 2px black;  
+ }
+ table{
+    border: solid 10px black;   
+ }
+ div{
+    width: 100%;   
+    overflow:hidden;
+    border: solid 2px black;
+    padding: 1em;
+ }
